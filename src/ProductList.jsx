@@ -8,7 +8,7 @@ const ProductList = ({ products }) => {
             <h2>Product List</h2>
             {products.map((product) => (
                 /* pass the props to the ProductItem component */
-                <ProductItem key={product.id} product={product} />
+               <ProductItem key={product.id} product={product} />
             ))}
         </div>
     );

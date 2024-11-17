@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ProductList from './ProductList'; 
-/* import AddProductForm from './AddProductForm'; // Import the AddProductForm component
- */
+ import AddProductForm from './AddProductForm'; // Import the AddProductForm component
 // Main App component
 const App = () => {
     // State to manage the list of products
@@ -25,7 +24,7 @@ const App = () => {
         <div>
             <h1>Product Dashboard</h1>
             {/* AddProductForm allows users to add new products */}
-            {/* <AddProductForm addProduct={addProduct} /> */}
+            <AddProductForm addProduct={addProduct} /> 
             {/* ProductList displays the list of products */}
             <ProductList products={products} />
         </div>
