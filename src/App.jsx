@@ -17,8 +17,7 @@ const App = () => {
         setProducts([
             ...products, 
             { ...product, id: Date.now() }, 
-        ]);
-    };
+        ]);};
 
     return (
         <div>
