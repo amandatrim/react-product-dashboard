@@ -68,7 +68,4 @@ A simple React application for managing a list of products. Users can add new pr
   package.json                # Project dependencies and scripts
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
